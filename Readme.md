@@ -9,3 +9,7 @@ fi
 
 Result :
 ![ScreenShot](ScreenShot.png)
+
+
+
+See: https://wiki.archlinux.org/index.php/Bash/Prompt_customization
