@@ -31,10 +31,7 @@ set_prompt () {
 
     # ugly hack as __git_ps1 need to arg to think it is in prompt mode (and so add color
     PS1=""
-    if [ -f /etc/bash_completion.d/git-prompt ]
-    then
-	__git_ps1 "" ""
-    fi
+    __git_ps1 "" ""
     ps1_save=$PS1
     
     # Add a bright white exit status for the last command
